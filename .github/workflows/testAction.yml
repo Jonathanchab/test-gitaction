@@ -29,6 +29,9 @@ jobs:
       - name: Installation Cypress
         run: npm install cypress --save-dev
 
+      - name: Test avec GitAction
+        run: npx cypress open
+
 
 
 
